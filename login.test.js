@@ -11,7 +11,7 @@ test('Valid Login test', async t => {
     //await t.click(Selector("button").withText("Sign up"));
     await t
     .setNativeDialogHandler(() => true)
-    .click(Selector("button").withText("Sign up"));
+    .click(Selector("button").withText("Sign up"));   
     //await t.debug();
     
        
